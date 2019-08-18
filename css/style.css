@@ -18,7 +18,14 @@
 	============================================================================================ */
 body {
   color: #888888;
-  font-family: "Roboto", sans-serif;
+  @font-face {
+font-family: "Gilroy-Bold";
+src: url("../fonts/Gilroy-Bold.eot");
+src: 
+url("css/fonts/Gilroy-Bold.woff") format("woff"),
+url("css/fonts/Harabara.otf") format("opentype"),
+url("css/fonts/Harabara.svg#filename") format("svg");
+}
   font-size: 15px;
   font-weight: 400;
   line-height: 1.667;
@@ -49,14 +56,18 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto Condensed", sans-serif;
-  color: #2a2a2a;
-  line-height: 1.25;
+ color: #0A1F44;
+  font-family: Gilroy;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 80px;
+  width: 703px;
+  text-align: left;
 }
 
 h1,
 .h1 {
-  font-size: 50px;
+  font-size: 64px;
 }
 
 h2,
@@ -814,9 +825,13 @@ h3, .h3 {
 }
 
 .hero-banner h1 {
-  text-transform: uppercase;
-  color: #00b974;
-  margin-bottom: 15px;
+  color: #0A1F44;
+  font-family: Gilroy;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 80px;
+  width: 703px;
+  text-align: left;
 }
 
 @media (max-width: 1200px) {

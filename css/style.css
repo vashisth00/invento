@@ -2569,6 +2569,11 @@ h3, .h3 {
   }
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .button:hover {
   background-color: #201aa3;
   color: #fff;

@@ -824,6 +824,16 @@ h3, .h3 {
   }
 }
 
+.vb{
+  color: #0A1F44;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  width: 256px;
+  text-align: left;
+}
+
 .hero-banner h1 {
   color: #0A1F44;
   font-family: Gilroy;
@@ -1294,7 +1304,7 @@ h3, .h3 {
 }
 
 .card-blog .card-blog-body h4 {
-  font-size: 20px;
+  font-size: 14px;
   margin-bottom: 15px;
 }
 
@@ -2537,10 +2547,25 @@ h3, .h3 {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+.button-vb {
+  border: #00b974;
+    border-style: solid;
+    border-width: thin;
+  display: inline-block;
+  background-color: #fff;
+ color: #00b974;
+  border-radius: 4px;
+  padding: 8px 25px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
 
 @media (min-width: 600px) {
   .button {
-    padding: 12px 45px;
+   padding: 8px 25px;
   }
 }
 

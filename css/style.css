@@ -2533,6 +2533,29 @@ h3, .h3 {
   color: #777;
 }
 
+.lol-pixie{
+   display: inline-block;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 25px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+
+    background: #fff;
+    height: 32px;
+    color: #333333;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 10px;
+}
+
 /*============ End Blog Single Styles  =============*/
 /*=================== custom button rule start ====================*/
 .button {
@@ -2599,7 +2622,7 @@ button.button {
 /* footer style start
 	============================================================================================ */
 .footer-area {
-  background: #04091e;
+  background: #FAFBFB;
   padding-top: 60px;
 }
 
